@@ -1,27 +1,20 @@
-@import url('fontawesome-all.min.css');
-@import url('https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic');
-@import url('https://fonts.googleapis.com/css?family=Barlow:300|Nanum+Gothic|PT+Sans|Roboto+Condensed:300|Ropa+Sans|Signika+Negative:300&display=swap');
-
 @-ms-viewport {
     width: device-width;
 }
 
 body, a {
-  font-family: 'Barlow', sans-serif;
   text-align: center;
   color: #D1CFE2;
   font-size: 24px;
 }
 
 footer {
-  font-family: 'Barlow', sans-serif;
   text-align: center;
   color: rgb(185, 185, 185);
   font-size: 14px;
 }
 
 h1 {
-  font-family: 'Signika Negative', sans-serif;
   font-weight: 700;
   margin-top: 40px;
   font-size: 32px;
@@ -29,14 +22,12 @@ h1 {
 }
 
 h2 {
-    font-family: 'Signika Negative', sans-serif;
     text-align: center;
     color: #D1CFE2;
     font-size: 26px;
   }
 
 h3 {
-  font-family: 'Signika Negative', sans-serif;
   text-align: center;
   color: #D1CFE2;
 }
@@ -44,7 +35,6 @@ h3 {
 
 
 p {
-  font-family: 'Barlow', sans-serif;
   margin: 2em 1em;
   color: #D1CFE2;
 }
@@ -96,7 +86,7 @@ p {
     padding: 0.5em 0.5em;
     text-decoration: none;
     color: #FFF;
-    background: #7B5E7B;
+    background: #0004ff;
     transition: .4s;
     font-size: 30px;
     outline-color: #D1CFE2;
