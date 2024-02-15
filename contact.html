@@ -1,0 +1,70 @@
+
+<html lang="en">
+<head>
+	<title>Decluttr</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="main.css">
+	<style> 
+	input[type=button] {
+	  background-color: #3C3456;
+	  border: solid #6181A3;
+	  color: white;
+	  margin: 5px 2px;
+	  padding: 20px 32px;
+	  text-decoration: underline
+	}
+	</style>
+</head>
+
+        
+<div class="header">
+	<a href="#default" class="logo">Decluttr</a>
+	<div class="header-right">
+	  <a href="index.html">Home</a>
+	  <a class="active" href="contact.html">Contact</a>
+	  <a href="services.html">Services</a>
+	</div>
+  </div>	
+<style type = "text/css">
+	body {background-color: #3C3456;}
+	.flex-container {display: flex; justify-content: space-around; margin: 1em;}
+</style>
+
+<body>
+	<div>
+		<div>
+			<h1 style="box-sizing: border-box; background-color: #7B5E7B; border-radius:2px">CONTACT</h1>
+			<div style="background-color:#D5E2EF; border-radius:2px; opacity: 90%; color: #3C3456; 
+			padding: 0.7em; size:15px">
+				<span><b>PHONE:</b><br> (314)-159-2653</span><br><br>
+				<span><b>EMAIL:</b><br> help@decluttr.com</span><br><br>
+				<span><b>ADDRESS:</b><br> 323 SW Washington St. <br>Somerville, MA 02144</span>
+			</div>
+	</div>
+
+	<hr>
+
+	<div>
+		<section>
+			<form name="input" method="POST" action="https://formspree.io/tyler.huynh@tufts.edu">
+				Name: <input type="text" name="name" placeholder="Your name"></input>
+				<br>
+				Email: <input type="email" name="user email" placeholder="Your email"></input>
+				<br><br>
+				Message: <textarea name="message" placeholder="Type your message"/></textarea>
+				<div class='col1'>Join e-list?
+					<input type="checkbox" name="join" value='yes'>
+				</div>
+				<br>
+				<input type="submit" value="Send Message"></input>
+				<input type="hidden" name="_subject" value="Someone Messaged You!"></input>
+				<input type="hidden" name="_next" value="thanks.html"></input>
+			</form>
+		</section>
+	</div>		
+</body>
+<footer>
+	Company © Decluttr. All rights reserved.
+</footer>
+</html>
